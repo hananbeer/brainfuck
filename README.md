@@ -36,3 +36,14 @@ bytes memory result = bf.execute(",>,<[->+<]>.", input, mem_size, output_size);
 console.logBytes(result);
 ```
 
+## Testing
+
+```
+$ forge script ./script/Brainfuck.s.sol
+
+Script ran successfully.
+Gas used: 56108
+
+== Logs ==
+  0x09
+```
